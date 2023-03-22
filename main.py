@@ -7,6 +7,7 @@
 import random
 import pygame
 
+
 # Classes
 
 # Cell class
@@ -80,7 +81,7 @@ class LifeGame:
     # Constructor
     # width: width of the game
     # height: height of the game
-    # cell_width: width of the cells
+    # cell_width: width of the cells'
     # cell_height: height of the cells
     # birth_threshold: number of neighbors needed to create a new cell
     # survival_min: minimum number of neighbors needed to keep a cell alive
@@ -185,15 +186,6 @@ def game_init():
         screen.blit(background, (0, 0))
         pygame.display.flip()
 
-    pygame.quit()
-
 
 if __name__ == '__main__':
-    game_init();
-
-
-
-
-
-
-
+    game_init()
